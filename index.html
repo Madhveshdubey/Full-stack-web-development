@@ -1,72 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
+<!-- 
+  TODO
+1. By changing only the display property of the CSS make all 3 squares line up horizontally like in goal1 image.
+2. Change only the display property to make all 3 squares line up vertically like in goal2 image. 
+-->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex Direction</title>
-  <!-- HINT:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
-  https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators 
-  -->
+  <title>CSS Display Property Example</title>
   <style>
-    .container {
+    p {
       color: white;
-      border: 5px solid gold;
-      display: inline-flex;
-      flex-direction: column;
     }
-
-    .container > * {
-      flex-basis: 100px;
-    }
-
-    /*
-Select all the elements that are the direct
-children of the .container class.
-    */
 
     .red {
-      background-color: #eb4d4b;
-    }
-
-    .orange {
-      background-color: #f0932b;
-    }
-
-    .yellow {
-      background-color: #f6e58d;
+      display:block;
+      width: 200px;
+      height: 200px;
+      background-color: red;
     }
 
     .green {
-      background-color: #6ab04c;
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: green;
     }
 
     .blue {
-      background-color: #4834d4;
-    }
-
-    .indigo {
-      background-color: #30336b;
-    }
-
-    .purple {
-      background-color: #be2edd;
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: blue;
     }
   </style>
 </head>
 
-<body>
-  <div class="container">
-    <div class="red">Red</div>
-    <div class="orange">Orange</div>
-    <div class="yellow">Yellow</div>
-    <div class="green">Green</div>
-    <div class="blue">Blue</div>
-    <div class="indigo">Indigo</div>
-    <div class="purple">Purple</div>
-  </div>
 
+<body>
+  <h1>CSS Display Property</h1>
+  <p class="red">Red Paragraph </p>
+  <p class="green">Green Paragraph</p>
+  <p class="blue">Blue Paragraph</p>
 </body>
 
 </html>
