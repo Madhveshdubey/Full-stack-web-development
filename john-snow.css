@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.john-snow{
+    margin-top: 7%;
+    width: 50%;
+    margin-left: 25%;
+}
+img{
+    
+    border: 5px solid white;
+    border-radius: 2%;
+    width: 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5%;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: larger;
+}
